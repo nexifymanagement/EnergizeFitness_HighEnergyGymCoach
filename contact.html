@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Energize Fitness</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    <!-- ====== HEADER ====== -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">ENERGIZE <span>FITNESS</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact-hero">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== CONTACT HERO ====== -->
+    <section id="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>LET'S CONNECT</h1>
+                <p>Ready to transform your body? Reach out now to schedule your consultation or ask any questions.</p>
+                <a href="#contact-main" class="btn">GET IN TOUCH</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== MAIN CONTACT SECTION ====== -->
+    <section id="contact-main">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>CONTACT DETAILS</h2>
+                    <div class="contact-methods">
+                        <!-- Phone -->
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>PHONE</h3>
+                                <a href="tel:+15551234567">(555) 123-4567</a>
+                                <p>Mon-Fri: 6am-9pm | Sat: 8am-4pm</p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>EMAIL</h3>
+                                <a href="mailto:train@energizefitness.com">train@energizefitness.com</a>
+                                <p>Response within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>STUDIO</h3>
+                                <p>123 Fitness Avenue<br>Los Angeles, CA 90015</p>
+                                <p>Open by appointment</p>
+                            </div>
+                        </div>
+
+                        <!-- Social Media -->
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>SEND A MESSAGE</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="program">Program Interest</label>
+                            <select id="program" name="program">
+                                <option value="">Select a program</option>
+                                <option value="foundation">Foundation Training</option>
+                                <option value="elite">Elite Athlete Program</option>
+                                <option value="pro">Pro Team</option>
+                                <option value="other">Not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== MAP SECTION ====== -->
+    <section id="map-section">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.853771326469!2d-118.24284192426604!3d34.05372507314352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c635d0c7f8f5%3A0x3b9e73a1a981f3d2!2s123%20Fitness%20Ave%2C%20Los%20Angeles%2C%20CA%2090015!5e0!3m2!1sen!2sus!4v1712345678901!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <script src="contact.js"></script>
+</body>
+</html>
